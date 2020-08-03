@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<hoe-git>, ["~> 1.5"])
       s.add_development_dependency(%q<hoe-rubygems>, ["~> 1.0"])
       s.add_development_dependency(%q<hoe-travis>, ["~> 1.2"])
-      s.add_development_dependency(%q<rake>, ["~> 10.0"])
+      s.add_development_dependency(%q<rake>, ["~> 13.0"])
       s.add_development_dependency(%q<hoe>, ["~> 3.12"])
     else
       s.add_dependency(%q<minitest>, ["~> 5.3"])
@@ -41,7 +41,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<hoe-git>, ["~> 1.5"])
       s.add_dependency(%q<hoe-rubygems>, ["~> 1.0"])
       s.add_dependency(%q<hoe-travis>, ["~> 1.2"])
-      s.add_dependency(%q<rake>, ["~> 10.0"])
+      s.add_dependency(%q<rake>, ["~> 13.0"])
       s.add_dependency(%q<hoe>, ["~> 3.12"])
     end
   else
@@ -52,7 +52,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<hoe-git>, ["~> 1.5"])
     s.add_dependency(%q<hoe-rubygems>, ["~> 1.0"])
     s.add_dependency(%q<hoe-travis>, ["~> 1.2"])
-    s.add_dependency(%q<rake>, ["~> 10.0"])
+    s.add_dependency(%q<rake>, ["~> 13.0"])
     s.add_dependency(%q<hoe>, ["~> 3.12"])
   end
 end
